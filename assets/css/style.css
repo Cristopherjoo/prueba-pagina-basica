@@ -1,3 +1,25 @@
+.navbar {
+    font-family: 'Franklin Gothic Medium';
+    position: relative;
+    
+}
+.message {
+    display: none;
+    position: absolute;
+    left: 20px;
+    bottom: -30px;     
+    background-color: rgb(255, 255, 255);
+    color: rgb(228, 11, 11);
+    text-align: center;
+    padding: 6px;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 20px;
+}
+.navbar:hover .message {
+    display: block;
+}
+
+
 .card-img-top {
     width: 100%;
     height: 300px;
@@ -35,7 +57,6 @@
 #tooltip-first .tooltip {
     bottom: -50px;
     right: 20px;
-
 }
 
 #tooltip-second .tooltip {
@@ -80,111 +101,22 @@
     overflow: hidden;
     background-color: none;
     cursor: pointer;
-    margin: 50px auto;
+    margin: 1px auto;
 }
 
 #panel {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    background-color: #f5b7b1;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(245, 183, 177);
     border-radius: 50%;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: none;
-}
-
-.oido {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 30px solid #f5b7b1;
-    border-top: 0;
-    top: -20px;
-}
-
-#oido-izquierdo {
-    left: -10px;
-    transform: rotate(-30deg);
-}
-
-#oido-derecho {
-    right: -10px;
-    transform: rotate(30deg);
-}
-
-.ojo {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background-color: #fff;
-    border-radius: 50%;
-    top: 20px;
-}
-
-#ojo-izquierdo {
-    left: 20px;
-}
-
-#ojo-derecho {
-    right: 20px;
-}
-
-.pupila {
-    width: 5px;
-    height: 5px;
-    background-color: #000;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.bigote {
-    position: absolute;
-    width: 40px;
-    height: 2px;
-    background-color: #730b9c;
-    top: 40px;
-}
-
-#bigote-izquierdo1 {
-    left: -5px;
-    top: 60px;
-    transform: rotate(-20deg);
-}
-
-#bigote-izquierdo2 {
-    left: -5px;
-    top: 65px;
-    transform: rotate(160deg);
-}
-
-#bigote-derecho1 {
-    right: -5px;
-    top: 60px;
-    transform: rotate(20deg);
-}
-
-#bigote-derecho2 {
-    right: -5px;
-    top: 65px;
-    transform: rotate(20deg);
-}
-
-.cola {
-    position: absolute;
-    width: 80px;
-    height: 20px;
-    background-color: #f5b7b1;
-    border-radius: 50%;
-    top: 80px;
-    left: 50%;
-    transform: rotate(30deg);
+    display: none; 
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 /*fin gatito */
 

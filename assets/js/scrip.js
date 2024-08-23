@@ -1,10 +1,16 @@
-const container = document.getElementById('container');
-const panel = document.getElementById('panel');
+document.addEventListener('DOMContentLoaded', () => {
+    const container = document.getElementById('container');
+    const panel = document.getElementById('panel');
 
-container.addEventListener('mouseover', () => {
-    panel.style.display = 'block';
-});
+    if (container && panel) {
+        container.addEventListener('mouseover', () => {
+            panel.style.display = 'flex'; // Mostrar el panel
+        });
 
-container.addEventListener('mouseout', () => {
-    panel.style.display = 'none';
+        container.addEventListener('mouseout', () => {
+            panel.style.display = 'none'; // Ocultar el panel
+        });
+    } else {
+        console.error('Elementos con los IDs especificados no encontrados.');
+    }
 });
