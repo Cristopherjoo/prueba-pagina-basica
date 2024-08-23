@@ -10,46 +10,50 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>              
-            </ul>
-          </div>
+            <a class="navbar-brand" href="#">GATULANDIA</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Razas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>              
+                </ul>
+            </div>
         </div>
-      </nav>
-
-      <header>
+    </nav>
+    
+    <header>
         <section class="hero-section container py-3 mb-4">
             <div class="row align-items-center">
                 <div class="col-12 col-md-6">
-                    <img src="./assets/img/raza.jpg" alt="Pizza al estilo Chicago con espinacas y champiñones"
-                        class="img-fluid w-100">
+                    <img src="./assets/img/raza.jpg" alt="Pizza al estilo Chicago con espinacas y champiñones" class="img-fluid w-100">
                 </div>
-                <div class=" titulo-pizza col-md-6">
-                    <h1 style="width:300px">Características y Encanto del Gato Siamés</h1>
+                <div class="col-md-6">
+                    <h1>Características y Encanto del Gato Siamés</h1>
                     <hr class="separadorEver">
-                    <h5>Raza: Siamés / Características destacadas</h5>
-                    <ul class="list row justify-content-start pt-3" style="list-style: none">
-                        <li class="col-auto">Imprimir</li>
-                        <li class="col-auto">Guardar en favoritos</li>
+                    <h5>Raza: Siamés / Características destacadas</h5>                 
+                    <ul class="list-unstyled pt-3">
+                        <li id="tooltip-first" class="tooltip-container px-3">
+                            Imprimir
+                            <span class="tooltip">Debe estar registrado</span>
+                        </li>
+                        <li id="tooltip-second" class="tooltip-container px-3">
+                            comida preferida
+                            <span class="tooltip">Registrese y obtendra un listado exclusivo</span>
+                        </li>
                     </ul>
                 </div>
             </div>
         </section>
-
-
+    
         <div class="container">
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -95,7 +99,7 @@
                         <div class="d-flex">
                             <div class="col-12 col-md-4 mx-2">
                                 <div class="card">
-                                    <img src="./assets/img//gato7.jpg" alt="Siete" class="card-img-top">
+                                    <img src="./assets/img/gato7.jpg" alt="Siete" class="card-img-top">
                                 </div>
                             </div>
                             <div class="col-12 col-md-4 mx-2">
@@ -122,7 +126,78 @@
             </div>
         </div>
     </header>
+    
+    <main>
+        <div class="container-otros">
+            <div class="row">
+                <div class="col-md-8">
+                    <h3>GATO SIAMÉS</h3>
+                    <h4>HISTORIA DE LA RAZA: EL ORIGEN Y DESARROLLO HISTÓRICO DEL GATO SIAMÉS</h4>
+                    <p>El <strong>gato Siamés</strong> es una de las razas más antiguas y distintivas del mundo felino. Su origen se remonta a Tailandia, anteriormente conocida como Siam, de donde proviene su nombre. Esta raza ha sido venerada en la cultura tailandesa durante siglos y se menciona en antiguos manuscritos tailandeses, como el <em>Tamra Maew</em> (poema de gatos), que data del siglo XIV.</p>
+                    <p>En el siglo XIX, los gatos Siameses comenzaron a llegar a Europa, gracias a la esposa del embajador británico en Siam, la señora Valerie Harington. Ella trajo varios ejemplares a Inglaterra, donde rápidamente captaron la atención de los criadores y entusiastas de los gatos. La raza fue presentada en exposiciones felinas y ganó popularidad por su apariencia única y su personalidad encantadora.</p>
+                    <p>Durante el período de finales del siglo XIX y principios del siglo XX, el gato Siamés experimentó una gran expansión en su reconocimiento y popularidad. Los criadores comenzaron a desarrollar estándares específicos para la raza, enfocándose en su pelaje corto y sus distintivos puntos de color. A lo largo del tiempo, el Siamés se convirtió en una de las razas más reconocidas y queridas en todo el mundo.</p>
+                    <p>Hoy en día, el gato Siamés sigue siendo una de las razas más populares, apreciado por su elegancia, inteligencia y carácter sociable. Su historia rica y su presencia icónica continúan capturando el corazón de los amantes de los gatos en todo el mundo.</p>
+                </div>
+                
+                <div class="col-md-4">
+                    <h4>Datos Rápidos</h4>
+                    <ul>
+                        <li><strong>Tamaño:</strong> Mediano</li>
+                        <li><strong>Peso:</strong> Machos 4-6 kg; Hembras 2.5-4.5 kg</li>
+                        <li><strong>Esperanza de Vida:</strong> 12-20 años</li>
+                        <li><strong>Pelaje:</strong> Corto y sedoso</li>
+                        <li><strong>Colores de Puntos:</strong> Seal, Blue, Chocolate, Lilac, Red, Cream</li>
+                        <li><strong>Temperamento:</strong> Sociable, activo, y vocal</li>
+                        <li><strong>Inteligencia:</strong> Alta</li>
+                        <li><strong>Requisitos de Ejercicio:</strong> Moderado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 
+
+
+
+
+    <article class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+        <div class="recipe-card mb-4 text-center">
+            <img src="./assets/img/ropagato.jpg" class="card-img-top img-fluid" alt="ropa de gato"
+                style="max-width: 100%; height: auto;" />
+            <div class="card-body">
+                <h5 class="card-title">diferentes tipos de ropa</h5>
+                <p class="card-text">
+                    Los pequeños detalles hacen la diferencia...
+                </p>
+            </div>
+        </div>
+    </article>
+    
+    <article class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+        <div class="recipe-card mb-4 text-center">
+            <img src="./assets/img/cafegato.jpg" class="card-img-top img-fluid" alt="lugares visitar"
+                style="max-width: 100%; height: auto;" />
+            <div class="card-body">
+                <h5 class="card-title">Rutas y Rincones:</h5>
+                <p class="card-text">
+                    utas y rincones: descubre joyas ocultas en cada destino...
+                </p>
+            </div>
+        </div>
+    </article>
+    
+    <article class="col-12 col-md-4 mb-4 d-flex justify-content-center">
+        <div class="recipe-card mb-4 text-center">
+            <img src="./assets/img/cuidadogato.jpg" class="card-img-top img-fluid" alt="cuidado gato"
+                style="max-width: 100%; height: auto;" />
+            <div class="card-body">
+                <h5 class="card-title">Cuidando a tu Felino</h5>
+                <p class="card-text">
+                    prácticas para mantener a tu gato sano y feliz...
+                </p>
+            </div>
+        </div>
+    </article>        
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
